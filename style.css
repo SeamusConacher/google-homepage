@@ -1,7 +1,3 @@
-body {
-	font-family: roboto;
-}
-
 #logo {
 	height: 92px;
 	width: 272px;
@@ -18,4 +14,28 @@ body {
 	padding-bottom: 2px;
 	width: 450px;
 	height: 2em;
+}
+#buttons{
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 250px;
+	padding-top: 30px;
+}
+
+div > input {
+	display: block;
+	height: 35px;
+	font-family: roboto;
+	font-weight: bold;
+	color: #808080;
+	border: none;
+}
+
+#search_button {
+	float: left;
+}
+
+#lucky_button {
+	float: right;
 }
