@@ -5,15 +5,42 @@
 		<link type="text/css" rel="stylesheet" href="style.css"/>
 	</head>
 	<body>
-			<img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"/>
-		<div class="search">
+		<div id="header">
+			<p>
+				<a href="https://mail.google.com/mail">Gmail</a>
+				<a href="https://www.google.com/imghp?hl=en&tab=wi&ei=-_ZvV9qxMeeKgAatg4OoCA&ved=0EKouCBUoAQ">Images</a>
+			</p>
+		</div>
+
+		<div id="footer">
+			<p id="left_footer"> 
+				<a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+				<a href="https://www.google.com/services/?fg=1#?modal_active=none">Business</a>
+				<a href="https://www.google.com/intl/en/about/">About</a>
+			</p>
+
+			<p id="right_footer">
+				<a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+				<a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+				<a href="https://www.google.com/preferences?hl=en">Settings</a>
+				<a href="http://www.google.co.uk">Use Google.co.uk</a>
+			</p>
+		</div>
+
+		<img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"/>
+
+		<div>
 			<form action="somescript.php" method="get">
-				<input id="search_bar" name="searchbar"/>
+
+				<input type="text" name="searchbar"/>
+
 				<div id="buttons">
-					<input id="search_button" type="submit" value="Google Search">
-					<input id="lucky_button" type="submit" value="I'm Feeling Lucky">
+					<input id="search_button" type="submit" value="  Google Search  ">
+					<input id="lucky_button" type="submit" value="  I'm Feeling Lucky  ">
 				</div>
+
 			</form>
 		</div>
+
 	</body>
 </html>
